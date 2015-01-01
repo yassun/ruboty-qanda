@@ -15,6 +15,7 @@ module Ruboty
         private
 
         def qanda
+          response.body["message"]["textForDisplay"]
         end
 
         def response
@@ -35,8 +36,8 @@ module Ruboty
 
         def params
           {
-            api_key: ENV["DOCOMO_API_KEY"],
-            q: @message
+            APIKEY: ENV["DOCOMO_API_KEY"],
+            q: @message[:keyword]
           }
         end
       end
