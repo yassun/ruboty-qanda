@@ -1,6 +1,6 @@
 # Ruboty::Qanda
 
-TODO: Write a gem description
+ruboty plugin for knowledge Q&A API.
 
 ## Installation
 
@@ -20,12 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+> ruboty tell me 人類で最初の宇宙飛行士は？
+インターネットで調べたところ、一位は、ガガーリンです。
+```
 
-## Contributing
+## ENV
+```
+DOCOMO_API_KEY - DOCOMO API KEY
+```
 
-1. Fork it ( https://github.com/[my-github-username]/ruboty-qanda/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+[docomo Developer support](https://dev.smt.docomo.ne.jp/?p=about.index)
+
+
